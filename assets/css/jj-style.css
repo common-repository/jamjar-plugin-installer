@@ -1,0 +1,115 @@
+.jj-main-container {
+  margin: auto 15px; }
+
+#jj-uploads #uploads .block {
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #CCCCCC; }
+
+#jj-uploads #uploads .block .progressBar {
+  background-color: #3E6FAD;
+  width: 0px;
+  height: 5px;
+  margin-top: 47px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -moz-transition: .25s ease-out;
+  -webkit-transition: .25s ease-out;
+  -o-transition: .25s ease-out;
+  transition: .25s ease-out; }
+
+#jj-uploads #uploads .block .format {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 34px; }
+
+#jj-uploads #uploads .block .error {
+  text-align: left;
+  font-size: 14px;
+  color: red; }
+
+.upload_btn_cont button {
+  padding: 8px 21px;
+  border-radius: 3px;
+  background: #3a83c7;
+  color: white;
+  border: solid 4px #7cb2ff;
+  cursor: pointer; }
+
+.dropzone .dz-preview.dz-file-preview .dz-image {
+  background: url(../images/zip.jpeg) center !important;
+  /* background: linear-gradient(to bottom, #eee, #00b5de) !important;*/ }
+
+.dropzone .dz-preview .dz-progress .dz-upload {
+  background: #333;
+  background: linear-gradient(to bottom, #71fd5a, #00ca06) !important; }
+
+.dropzone .dz-preview .dz-remove {
+  padding: 6px;
+  text-decoration: none !important;
+  border-radius: 10px !important;
+  margin-top: 10px !important;
+  background-color: #ccc;
+  color: white; }
+  .dropzone .dz-preview .dz-remove:hover {
+    background-color: #ff9595; }
+
+.dropzone {
+  border: 1px solid rgba(156, 168, 255, 0.3) !important; }
+
+.dropzone .dz-default.dz-message .figure {
+  height: 219px;
+  width: 219px;
+  background-image: url(../images/upload.png) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  border-radius: 100%;
+  background-origin: content-box;
+  padding: 20px;
+  transition: border-width 0.1s linear;
+  border: solid 1px #7fb5ff; }
+  .dropzone .dz-default.dz-message .figure:hover {
+    border: solid 12px #7fb5ff; }
+  .dropzone .dz-default.dz-message .figure.hover {
+    border: solid 12px #7fb5ff; }
+
+.dropzone .dz-default.dz-message p span {
+  font-size: 21px;
+  color: #929292; }
+
+.dropzone .dz-preview .dz-progress {
+  top: 59% !important; }
+
+.jamjar-banner-wrapper {
+  background-color: white;
+  border: solid thin #ccc;
+  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.jamjar-banner-wrapper img {
+  float: left;
+  margin-right: 10px; }
+
+.jamjar-banner-wrapper img {
+  width: 108px; }
+
+.dir-perm-error {
+  padding: 10px;
+  border: solid thin red;
+  background-color: red;
+  color: white;
+  margin-bottom: 6px; }
+
+/*# sourceMappingURL=jj-style.css.map */
